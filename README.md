@@ -149,6 +149,9 @@ $ ssh-add ~/.ssh/id_rsa
 ```
 
 ### Vagrant-Übung
+
+Zuerst habe ich eine Multi VM Umgebung aufgebaut. Das Vagrant-File konnten wir vom Repository von Herrn Kählin downloaden.
+
 ```
 +---------------------------------------------------------------+
 ! Notebook - Schulnetz 10.x.x.x und Privates Netz 192.168.55.1  !                 
@@ -165,6 +168,24 @@ $ ssh-add ~/.ssh/id_rsa
 +---------------------------------------------------------------+
 ```
 
+1. Web Server mit Apache und MySQL UserInterface Adminer
+2. Datenbank Server mit MySQL
+3. Die Verbindung Web - Datenbank erfolgt mittels Internen Netzwerk Adapter.
+4. Von Aussen ist nur der HTTP Port auf dem Web Server Erreichbar.
+
+Um in die VM zu wechseln ist zusätzlich der in Vagrantfile definierte Name einzugeben.
+```
+vagrant ssh database
+```
+```
+vagrant ssh web
+```
+
+##### Sicherheit
+```
+Datenbank Server bzw. MySQL ist mit Password geschützt.
+Der Web Server ist offen und mittels ungeschütztem HTTP Protokoll erreichbar.
+```
 ### Reflexion
 
 Im ganzen hat mir das Modul sehr Spass gemacht, auch wenn ich zu Beginn sehr viel Schwieriegkeiten hatte.
