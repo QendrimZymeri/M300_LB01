@@ -7,6 +7,7 @@ Mit Vagrant habe ich bisher noch keine Erfahrungen gemacht.
 Virtualisierung und die Automatisierung davon ist für mich aber ein sehr spannendes Thema und ich 
 freue mich mehr darüber zu lernen und das in der Zukunft anzuwenden.
 
+Github hatte ich noch nie zuvor benutzt.Ehrlich gesagt habe ich nicht gewusst was das ist.
 ### Einrichten
 
 ## Git bash
