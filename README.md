@@ -186,6 +186,75 @@ vagrant ssh web
 Datenbank Server bzw. MySQL ist mit Password geschützt.
 Der Web Server ist offen und mittels ungeschütztem HTTP Protokoll erreichbar.
 ```
+
+### K1
+1. VirtualBox
+2. Vagrant
+3. Visualstudio-Code
+4. Git-Client
+  Der Git-Client wird verwendet. Ich habe mein Repository damit verknüpft und sobald ich lokal auf dem Pc (Ausgewählten Order) etwas     
+  ändere, wird’s automatisch in meinem Repository synchronisiert.
+5.	SSH-Key für Client erstellt
+
+
+
+### K2
+1. GitHub oder Gitlab-Account ist erstellt
+https://github.com/QendrimZymeri/M300_LB01
+2. Git-Client wurde verwendet
+3. Dokumentation ist als Mark Down vorhanden
+Ich habe mich entschieden die Doku in Word zu machen und diese Word-Datei später im Repository hochzuladen. Es fiel mir am Beginn etwas schwierig mit dem Mark Down zu arbeiten, da es speziell formatiert worden ist. 
+4. Mark down-Editor ausgewählt und eingerichtet8
+5. Mark down ist strukturiert
+
+6. Persönlicher Wissenstand im Bezug auf die wichtigsten Themen sind dokumentiert (Linux, Virtualisierung, Vagrant, Versionsverwaltung / Git, Mark Down, Systemsicherheit)
+Im Betrieb arbeite ich täglich mit Virtuellen Server (ESXI Umgebung). Da mir Vagrant sehr fremd war, fragte ich in der Firma nach, ob sich jemand mit Vagrant auskennt. Leider kannte sich niemand im Team mit Vagrant aus. Dank den ersten Input von Herr Kählin über Vagrant, konnte ich meinen Teamkollegen erzählen was Vagrant ist und was es so macht. Sie fanden das sehr spannend. 
+
+
+7. Wichtige Lernschritte sind dokumentiert
+
+
+
+
+
+### K3
+1. Bestehende vm aus Vagrant-Cloud einrichten
+Am 2. Tag mussten wir einen Vorgegebenen Vagrant-File von der Lehrperson Downloaden und das Vagrant-File ausführen. Zu Beginn war das ein bisschen kompliziert, da der Pfad stimmen musste usw. Jedoch heute fälölt mir das sehr leicht.
+2. Kennt die Vagrant-Befehle
+3. Eingerichtete Umgebung ist dokumentiert (Umgebungs-Variablen, Netzwerkplan gezeichnet, Sicherheitsaspekte)
+4. Funktionsweise getestet inkl. Dokumentation der Testfälle
+5. andere, vorgefertigte vm auf eigenem Notebook aufgesetzt
+6. Projekt mit Git und Mark Down dokumentiert
+
+
+### K4
+1. Firewall eingerichtet inkl. Rules
+2. Reverse-Proxy eingerichtet
+3. Benutzer- und Rechtevergabe ist eingerichtet
+4. Zugang mit SSH-Tunnel abgesichert
+5. Sicherheitsmassnahmen sind dokumentiert
+6. Projekt mit Git und Mark Down dokumentiert
+
+### K5
+
+Allgemein
+
+1. Kreativität
+2. Komplexität
+3. Umfang
+
+Umsetzung eigener Ideen
+1. Cloud-Integration (Einsatz einer IaaS-Umgebung)
+2. Authentifizierung und Autorisierung via LDAP
+3. Übungsdokumentation als Vorlage für Modul-Unterlagen erstellt 
+
+Persönliche Lernentwicklung
+1. Vergleich Vorwissen - Wissenszuwachs
+2. Reflexion
+
+
+
+
 ### Reflexion
 
 Im ganzen hat mir das Modul sehr Spass gemacht, auch wenn ich zu Beginn sehr viel Schwieriegkeiten hatte.
